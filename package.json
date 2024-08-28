@@ -1,6 +1,6 @@
 {
   "name": "ethers-gcp-kms-signer",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "An Ethers.js compatible signer that connects to GCP KMS",
   "main": "dist/signer.js",
   "types": "dist/signer.d.ts",
@@ -38,7 +38,7 @@
   },
   "homepage": "https://github.com/openlawteam/ethers-gcp-kms-signer#readme",
   "dependencies": {
-    "@google-cloud/kms": "3.0.1",
+    "@google-cloud/kms": "4.5.0",
     "@metamask/eth-sig-util": "4.0.0",
     "asn1.js": "5.4.1",
     "bn.js": "5.2.0",
@@ -82,5 +82,9 @@
     "semantic-release-npm-github-publish": "^1.5.1",
     "ts-node": "^10.3.1",
     "typescript": "^4.4.4"
+  },
+  "resolutions": {
+    "elliptic": "6.5.7",
+    "ws": "7.5.10"
   }
 }
